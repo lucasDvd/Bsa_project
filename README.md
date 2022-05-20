@@ -15,3 +15,4 @@ Therefore we decide to clean our dataset. For this, we :
 Then we were able to train our model directly on Google Cloud.
 
 ## Evaluation
+![Capture d’écran (43)](https://user-images.githubusercontent.com/73751401/169562841-eee20ba1-ce49-4291-91a7-8d1fe4c9ae49.png)
