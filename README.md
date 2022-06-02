@@ -15,4 +15,13 @@ Therefore we decide to clean our dataset. For this, we :
 Then we were able to train our model directly on Google Cloud.
 
 ## Evaluation
-![Capture d’écran (43)](https://user-images.githubusercontent.com/73751401/169562841-eee20ba1-ce49-4291-91a7-8d1fe4c9ae49.png)
+![Treshold 0 5](https://user-images.githubusercontent.com/73751401/171592508-ef1d760e-c5a5-4ee4-8c6b-b16c9be9bd8e.png)
+
+Here we can see that with a threshold set to 0.5 we obtain the differents metrics:
+- Precision score : 0.57
+- Recall score : 0.48
+- Accuracy : 0.56
+- F1 - score : 0.52
+
+### Confusion Matrix
+![Confusion matrix](https://user-images.githubusercontent.com/73751401/171594857-2c64f162-b4dd-4aa3-8cec-854c9b777a32.png)
