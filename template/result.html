@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>
+            Sentence prediction
+        </title>
+    </head>
+    <body>
+
+        <h1> Here is the predicted level of difficulty of your text </h1>
+        <p> The first line reprsents the most probalistic level of difficulty. 
+            The last line represents the less probabilistic level of difficulty.
+        </p>
+    <body>
+        <form action = "{{ url_for('result')}}" method = "POST" > <br /> <br /> <br />
+            <label>New prediction:</label>
+            <input type="text" id="to_classify" name="to_classify" size="50" placeholder="Enter some text in french to determine its difficulty" required>
+            <input type = "submit" value = "predict difficulty!" , font = 30 size="70">
+        </form>
+    </body>
+
+</html>
