@@ -25,3 +25,13 @@ Here we can see that with a threshold set to 0.5 we obtain the differents metric
 
 ### Confusion Matrix
 ![Confusion matrix](https://user-images.githubusercontent.com/73751401/171594857-2c64f162-b4dd-4aa3-8cec-854c9b777a32.png)
+
+## Launch Localy
+In order to deploy our service localy we created our service account. Its also provide us the key with the JSON file.
+
+## Deployement on App Engine
+In order to deploy our app on google app engine, we created a .yaml file and a requirements file. 
+To deploy it we used the gcloud app deploy 'project name' command in the gcloud.
+The output of this is a link to our web app. The link work and show us our web app but the result.html doesn't seems to work. It show us a 'Internal Server Error'.
+
+Here is the link to our web app :
