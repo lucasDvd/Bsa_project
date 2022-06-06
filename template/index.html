@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="index.css" rel="stylesheet" type="text/css">
+            <title> Sentence Classifier </title>
+                <body>
+                    <h1 class="h1" ><FONT face="Tahoma"  >Welcome to our text classifier!</FONT> </h1>
+                    <br />
+
+                    <p class="p"><FONT face="Arial">This interface allows you to write a french text and predict its difficulty.
+                        It will classify your text based on different classes of difficulty : A1, A2, B1, B2, C1, C2.
+                        We trained a model with Google Cloud AutoMl and then set-up an API that we deployed with flask to make the user interface.</FONT></p>
+
+
+                    <br />
+                    <div id="container">
+                      <form action = "{{ url_for('result')}}" method = "POST">
+                        <label>Text:</label>
+                        <input type="text" id="to_classify" name="to_classify" size="50" placeholder="Write your text here" required>
+                        <input type = "submit" value = "predict difficulty!" , font = 30 size="70">
+
+                      </form>
+                    </div>  
+
+
+
+               </body>
+    </head>
+
+
+
+</html>
