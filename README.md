@@ -34,4 +34,4 @@ In order to deploy our app on google app engine, we created a .yaml file and a r
 To deploy it we used the gcloud app deploy 'project name' command in the gcloud.
 The output of this is a link to our web app. The link work and show us our web app but the result.html doesn't seems to work. It show us a 'Internal Server Error'.
 
-Here is the link to our web app :
+Here is the link to our web app : https://classificationproject-349308.uc.r.appspot.com
